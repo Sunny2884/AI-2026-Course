@@ -11,11 +11,11 @@
 
 | 题目 | 提交路径 |
 | --- | --- |
-| 大模型后训练 | LargeModels/PostTraining/group-XX/ |
-| RAG（检索增强生成） | LargeModels/RAG/group-XX/ |
-| Agent（智能体） | LargeModels/Agents/group-XX/ |
-| 图像分割 | ComputerVision/Segmentation/group-XX/ |
-| 图像生成 | ComputerVision/Generation/group-XX/ |
+| 大模型后训练 | PostTraining/group-XX/ |
+| RAG（检索增强生成） | RAG/group-XX/ |
+| Agent（智能体） | Agent/group-XX/ |
+| 图像分割 | ImageSegmentation/group-XX/ |
+| 图像生成 | ImageGeneration/group-XX/ |
 
 XX 为课程统一分配的两位组号，且全班唯一。每组仅由组长或指定代表提交，只修改本组目录。
 
