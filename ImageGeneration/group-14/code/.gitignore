@@ -1,0 +1,12 @@
+models/
+workspace/
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+*.tar.gz
+*.safetensors
+*.bin
+*.pth
+*.onnx
+*.ckpt

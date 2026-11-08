@@ -1,0 +1,32 @@
+# Install the matching CUDA build of torch/torchvision separately.
+diffusers==0.35.1
+transformers==4.57.0
+accelerate==1.10.1
+peft==0.19.1
+safetensors
+huggingface_hub
+numpy<2
+Pillow
+torchvision
+tensorboard
+filelock
+matplotlib
+scipy
+opencv-python-headless
+insightface
+onnxruntime-gpu
+# MUSIQ dependencies are explicit: pyiqa 0.1.13 pins Transformers 4.37.2
+# for unrelated metrics; install it separately with --no-deps as documented.
+addict
+einops
+facexlib
+future
+icecream
+lmdb
+openai-clip
+pandas
+pyyaml
+requests
+sentencepiece
+timm==0.9.16
+hsemotion==0.3.0
