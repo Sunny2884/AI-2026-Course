@@ -1,0 +1,19 @@
+{
+  "torch": "2.7.1+cu126",
+  "device": "cuda:0",
+  "world_size": 4,
+  "gpu_names": [
+    "NVIDIA A100-PCIE-40GB",
+    "NVIDIA A100-PCIE-40GB",
+    "NVIDIA A100-PCIE-40GB",
+    "NVIDIA A100-PCIE-40GB"
+  ],
+  "batch_size_per_gpu": 2,
+  "grad_accum": 2,
+  "effective_batch_size": 16,
+  "workers_per_gpu": 4,
+  "amp_dtype": "bf16",
+  "training_images": 14432,
+  "training_images_per_epoch": 14432,
+  "validation_images": 2584
+}

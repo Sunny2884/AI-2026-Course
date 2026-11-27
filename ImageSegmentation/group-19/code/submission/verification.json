@@ -1,0 +1,8 @@
+{
+  "images": 2112,
+  "instances": 151169,
+  "template_order": true,
+  "CSV_JSON_equivalent": true,
+  "nonempty_compressed_RLE": true,
+  "csv_sha256": "e9f953a98959881e0601d7433455e6ab20a9d4b584186d3dc661a8dc5f065b29"
+}

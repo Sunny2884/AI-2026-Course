@@ -1,0 +1,22 @@
+{
+    "data_root": "./dataset",
+    "output_dir": "outputs/baseline",
+    "backbone_repo": "external/dinov3",
+    "backbone_weights": "weights/dinov3_convnext_tiny_pretrain_lvd1689m-21b726bb.pth",
+    "pretrained": true,
+    "use_depth": true,
+    "small_anchors": true,
+    "image_size": 1024,
+    "epochs": 20,
+    "batch_size": 4,
+    "workers": 2,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0005,
+    "lr_step_size": 8,
+    "amp": true,
+    "device": "cuda",
+    "seed": 42,
+    "train_limit": 0,
+    "val_limit": 0,
+    "num_gpus": 1
+}
